@@ -1,12 +1,23 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-#                               __         __
-#                              /__)_   '_/(  _ _
-#                             / ( (//)/(/__)( (//)
-#                                  /
+#                               
+#    # ###########################################################################################################
+#    #         db             88888        88             8886        88888         88     888 88888;  
+#    #        d88b            88  88       88           8888888       88 88         88     888      88 
+#    #      88    88          88   88      88         88      88      88   88       88     888       88
+#    #     88       88        88     88    88       88         88     88     88     88     888       88 
+#    #    8888888888888       88      88   88      8888888888888888   88       88   88     888       88
+#    #   88           88      88        88 88    88               88  88        88  88     888      88 
+#    #  88             88     88         8888   88                 88 88         88888     8888888888
+#    # ##############################################################################################################                       
 #
-# Author     : Shankar Narayana Damodaran
-# Tool       : RapidScan v1.2
+#
+#
+#
+
+#
+# Author     : ANAND
+# Tool       : RapidScan v2.0
 # Usage      : python3 rapidsan.py example.com
 # Description: This scanner automates the process of security scanning by using a
 #              multitude of available linux security tools and some custom scripts.
@@ -163,10 +174,10 @@ def clear():
 def logo():
     print(bcolors.WARNING)
     logo_ascii = """
-                                  __         __
-                                 /__)_  """+bcolors.BADFAIL+" ●"+bcolors.WARNING+"""_/(  _ _
-                                / ( (//)/(/__)( (//)
-                                     /
+                                          
+                                 """+bcolors.BADFAIL+" ●"+bcolors.WARNING+"""
+                       
+                                     
                      """+bcolors.ENDC+"""(The Multi-Tool Web Vulnerability Scanner)
 
                      Check out our new software, """+bcolors.BG_LOW_TXT+"""NetBot"""+bcolors.ENDC+""" for simulating DDoS attacks - https://github.com/skavngr/netbot
